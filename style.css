@@ -1,0 +1,891 @@
+/* Home */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7)50%, rgba(0, 0, 0, 0.7)50%), url(asset/1.png);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    background: black;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo {
+    color: rgb(25, 148, 25);
+    font-size: 35px;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu {
+    width: auto;
+    float: center;
+    height: 70px;
+}
+
+ul {
+    float: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li .besar_text {
+    border: none;
+    background: none;
+    text-decoration: none;
+    color: rgb(25, 148, 25);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    list-style: none;
+    margin-left: 124px;
+    margin-top: 27px;
+    font-size: 20px;
+    text-decoration: underline;
+    font-size: 1.3em;
+}
+
+ul li .bt1,
+.bt2,
+.bt3 {
+    border: none;
+    background: none;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    list-style: none;
+    margin-left: 124px;
+    margin-top: 27px;
+    font-size: 20px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a .besar_text:hover {
+    color: limegreen;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+ul li a .bt1:hover {
+    color: limegreen;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+ul li a .bt2:hover {
+    color: limegreen;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+ul li a .bt3:hover {
+    color: limegreen;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+main img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.content {
+    text-align: center;
+    margin-right: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.mid {
+    background-image: url(asset/bar.jpg);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.sub1 {
+    width: 100%;
+    background-image: url(asset/2.png);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 80px;
+    color: black;
+}
+
+.flex-container {
+    display: flex;
+}
+
+#Page2 {
+    background: none;
+    height: 700px;
+    width: auto;
+    background: none;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+}
+
+#P1 {
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    padding-left: 40px;
+    border-radius: 80px;
+
+}
+
+#P2 {
+    width: 100%;
+    height: 60%;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+
+}
+
+#D1 {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+
+}
+
+.bta {
+    background: black;
+    border: none;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 25px;
+    border-radius: 360px;
+}
+
+.bta:hover{
+    color: rgb(25, 148, 25);
+    font-style: normal;
+}
+
+*{
+    border-radius: 10px
+    }
+
+
+.Ptg1 {
+    width: 100%;
+    background-color: rgb(206, 206, 206);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 80px;
+    color: black;
+    
+
+}
+
+.Ptg15 {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    background-position: center;
+    background-size: cover;
+    height: 2700px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 220px;
+    color: black;
+    
+
+}
+
+.Ptg2 {
+    width: 80%;
+    background-color: none;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 0px;
+    color: black;
+    position: absolute;
+    object-fit: cover;
+ 
+
+}
+
+.Ptg3 {
+    width: 100%;
+    background-color: none;
+    background-size: cover;
+    height: 400px;
+    position: absolute;
+    transform: translate(0px, -340px);
+}
+
+.H2column {
+    float: left;
+    width: 32.2%;
+    padding: 10px;
+    
+}
+
+.H2row ::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.btb {
+    background: black;
+    border: none;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 500px;
+    padding-right: 500px;
+    font-size: 25px;
+    border-radius: 360px;
+}
+
+#P3 {
+    width: 100%;
+    height: 60%;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+
+}
+
+#P4 {
+    width: 100%;
+    height: 60%;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 80px;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+
+.cut{
+    background: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+
+.cut2{
+    background: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+
+.flex-container {
+    display: flex;
+}
+.Location {
+    width: 100%;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 80px;
+    color: black;
+}
+
+#Location {
+    background: none;
+    height: 400px;
+    width: 960px;
+    background: none;
+    padding-left: 400px;
+    padding-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 160px;
+}
+
+#L1 {
+    width: 60%;
+    height: 100%;
+    border-radius: 80px;
+    border-radius: 20px;
+    background: none;
+
+}
+
+#L2 {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 40px;
+    padding-top: 30px;
+
+}
+
+
+
+/* Portfolio */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main2 {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%), url(asset/P1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    
+
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    background: black;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo {
+    color: rgb(25, 148, 25);
+    font-size: 35px;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu {
+    width: auto;
+    float: center;
+    height: 70px;
+}
+
+ul {
+    float: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li .besar_text {
+    border: none;
+    background: none;
+    text-decoration: none;
+    color: rgb(25, 148, 25);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    list-style: none;
+    margin-left: 124px;
+    margin-top: 27px;
+    font-size: 20px;
+    text-decoration: underline;
+    font-size: 1.3em;
+}
+
+ul li .bt1,.bt2,.bt3 {
+    border: none;
+    background: none;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    list-style: none;
+    margin-left: 124px;
+    margin-top: 27px;
+    font-size: 20px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a .besar_text:hover {
+    color: rgb(25, 148, 25);
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+ul li a .bt1:hover {
+    color: limegreen;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+ul li a .bt2:hover {
+    color: limegreen;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+ul li a .bt3:hover {
+    color: limegreen;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+.main2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.main2 img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.content2 {
+    text-align: center;
+    margin-right: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    transform: translate(0px, 200px);
+}
+
+.mid2 {
+    background-image: url(asset/bar2.jpg);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    color: black;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.sub1 {
+    width: 100%;
+    background-image: url(asset/2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 40px;
+    color: black;
+}
+
+.food{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.Pf1 {
+    text-align: center;
+    font-size: 32px;
+    padding: 20px;
+}
+
+#Pf1 {
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    padding-left: 40px;
+    border-radius: 80px;
+}
+
+#Pf2 {
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    padding-left: 60px;
+    border-radius: 80px;
+    align-items: center;
+}
+
+#re1 {
+    padding-left: 60px;
+}
+
+#Df1 {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    padding-right: 340px;
+    padding-left: 20px;
+
+}
+
+#Df2 {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    padding-right: 340px;
+    padding-left: 20px;
+
+}
+
+#Df3 {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    padding-right: 340px;
+    padding-left: 20px;
+
+}
+
+#Df4 {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    padding-right: 340px;
+    padding-bottom: 30px;
+
+}
+
+.bta1 {
+    background: none;
+    border: none;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 45px;
+    border-radius: 360px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+}
+
+.bta1:hover{
+    color: rgb(25, 148, 25);
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+#pfa {
+    padding-left: 30px;
+    font-style: normal;
+    font-size: 30px;
+}
+
+#Pf3 {
+    width: 20%;
+    height: 100%;
+    padding-top: 10px;
+    padding-left: 40px;
+    border-radius: 80px;
+}
+
+.pf4 {
+    background-color: rgba(189, 189, 189, 0.616);
+    padding-top: 100px;
+    align-self: center;
+    padding-left: 300px;
+}
+
+#qr {
+    padding-right: 150px;
+    padding-top: 100px;
+}
+
+#pfc {
+    scale: 120%;
+text-align: center;
+font-size: 25px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.bta4 {
+    background: none;
+    border: none;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 55px;
+    display: block;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bta4:hover{
+    color: rgb(25, 148, 25);
+    font-style: normal;
+}
+
+/* Contact */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main3 {
+    width: 100%;
+    background: white;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    background: black;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo {
+    color: rgb(25, 148, 25);
+    font-size: 35px;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu {
+    width: auto;
+    float: center;
+    height: 70px;
+}
+
+ul {
+    float: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li .besar_text {
+    border: none;
+    background: none;
+    text-decoration: none;
+    color: rgb(25, 148, 25);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    list-style: none;
+    margin-left: 124px;
+    margin-top: 27px;
+    font-size: 20px;
+    text-decoration: underline;
+    font-size: 1.3em;
+}
+
+ul li .bt1,.bt2,.bt3 {
+    border: none;
+    background: none;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    list-style: none;
+    margin-left: 124px;
+    margin-top: 27px;
+    font-size: 20px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a .besar_text:hover {
+    color: limegreen;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+ul li a .bt1:hover {
+    color: limegreen;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+ul li a .bt2:hover {
+    color: limegreen;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+ul li a .bt3:hover {
+    color: rgb(25, 148, 25);
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+main3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+main3 a img{
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 20px;
+    border-radius: 80px ;
+}
+
+main4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+main4 a img{
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 20px;
+    border-radius: 80px ;
+}
+
+.content3 {
+    text-align: center;
+    margin-right: 100px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62px;
+    padding-left: 100px;
+}
+
+.mid2 {
+    background-image: url(asset/bar1.jpg);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#pfpfood {
+    text-align: center;
+}
+
+.bta5 {
+    background: black;
+    border: none;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 25px;
+    border-radius: 360px;
+}
+
+.bta5:hover{
+    color: rgb(25, 148, 25);
+    font-style: normal;
+}
+
+#pfp1 {
+    padding: 50px;
+    width: 350px;
+    height: 550px;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#pfpfood1 {
+    text-align: center;
+    padding-top: 220px;
+}
